@@ -1,7 +1,7 @@
-// Setting up User name
-// var username = document.querySelector("#user_name");
-// let User_name = window.prompt("Please type your fist name").toUpperCase();
-// username.textContent = User_name;
+Setting up User name
+var username = document.querySelector("#user_name");
+let User_name = window.prompt("Please type your fist name").toUpperCase();
+username.textContent = User_name;
 
 var socket = io();
 var symbol;
