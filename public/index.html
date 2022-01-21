@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./home.css" />
+    <!-- <link rel="stylesheet" href="home.css" /> -->
+    <title>Home</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <!-- <img
+          src="https://i.pinimg.com/originals/52/ab/8c/52ab8ce239e052e34ba24d4d72a20947.png"
+          alt=""
+        /> -->
+        <img
+          src="https://cdn2.iconfinder.com/data/icons/business-flatcircle/512/strategy-512.png"
+          alt=""
+        />
+        <h2>
+          Tic Tac Toe<br />
+          <span>By Ayush Raj</span>
+        </h2>
+
+        <div class="button">
+          <span>
+            <i class="fas fa-angle-right">Start Game</i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const buttons = document.querySelectorAll(".button");
+
+      for (const button of buttons) {
+        button.addEventListener("click", () => {
+          location.href = "/game";
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1 class="header">to see more of my project click on your name .</h1>
+    <div class="full-board">
+      <h4>
+        Welcome To This Game. <br /><span
+          ><a id="user_name" href="https://github.com/DexStarr0"
+            >Ayush Raj</a
+          ></span
+        >
+      </h4>
+      <!-- Game box -->
+      <div class="board">
+        <button id="a0"></button>
+        <button id="a1"></button>
+        <button id="a2"></button>
+        <button id="b0"></button>
+        <button id="b1"></button>
+        <button id="b2"></button>
+        <button id="c0"></button>
+        <button id="c1"></button>
+        <button id="c2"></button>
+      </div>
+      <!-- current status msg -->
+      <div id="messages">Waiting for opponent to join...</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>

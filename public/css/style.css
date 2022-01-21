@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  background: #e0e5ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  text-transform: capitalize;
+
+  position: absolute;
+  font-size: 1.6rem;
+  top: 50px;
+  color: grey;
+}
+.full-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.full-board h4 {
+  font-size: 1.2rem;
+  margin: 15px;
+  color: gray;
+}
+.full-board h4 span a {
+  text-decoration: none;
+  color: #f39c12;
+}
+.board {
+  height: 312px;
+  border-radius: 12px;
+  box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
+  width: 312px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+.board button {
+  height: 100px;
+  width: 100px;
+  font-size: 3em;
+  float: left;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
+}
+#messages {
+  font-size: 1rem;
+  margin: 15px;
+  font-weight: bolder;
+  color: gray;
+}
