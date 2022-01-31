@@ -21,7 +21,7 @@ var players = {},
   unmatched;
 
 io.sockets.on("connection", function (socket) {
-  console.log("socket connected");
+  console.log("Player Connected");
   socket.emit("connect", { msg: "hello" });
   joinGame(socket);
 
